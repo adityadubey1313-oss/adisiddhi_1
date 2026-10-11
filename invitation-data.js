@@ -16,9 +16,21 @@ const invitationData = {
     hotelGulzar: 'Hotel Gulzar'
   },
   contacts: {
-    kishoreKuti: {
-      venueId: 'kishoreKuti',
-      numbers: ['+91-9425025656', '+91-8989958989']
+    family: {
+      label: {
+        en: 'Family contacts',
+        hi: 'परिवार के संपर्क'
+      },
+      people: [
+        {
+          name: { en: 'Sushant Kumar Dubey', hi: 'श्री सुशांत कुमार दुबे' },
+          number: '+91-9425025656'
+        },
+        {
+          name: { en: 'Niharika Dubey', hi: 'श्रीमती निहारिका दुबे' },
+          number: '+91-8989958989'
+        }
+      ]
     },
     hotelGulzar: {
       venueId: 'hotelGulzar',
@@ -45,7 +57,7 @@ const invitationData = {
       },
       bride: {
         label: 'वधू के माता-पिता',
-        parents: ['श्रीमती निहारिका दुबे', 'श्री सुषांत कुमार दुबे']
+        parents: ['श्रीमती निहारिका दुबे', 'श्री सुशांत कुमार दुबे']
       }
     }
   },
@@ -160,70 +172,6 @@ const invitationData = {
     }
   },
   events: [
-    {
-      id: 'magarmati',
-      title: {
-        en: 'Magarmati, Mandapachhadan & Matrika Pujan',
-        hi: 'मागरमाटी, मण्डपाच्छादन और मातृका पूजन'
-      },
-      date: '2026-12-03',
-      day: { en: 'Thursday', hi: 'गुरुवार' },
-      start: '17:00',
-      end: '20:00',
-      venueId: 'kishoreKuti',
-      note: {
-        en: 'Traditional date: Agahan Krishna Dashami',
-        hi: 'परंपरागत तिथि: अगहन कृष्ण दशमी'
-      }
-    },
-    {
-      id: 'khermai',
-      title: {
-        en: 'Khermai Devi Darshan & Pujan',
-        hi: 'खेरमाई देवी दर्शन-पूजन'
-      },
-      date: '2026-12-04',
-      day: { en: 'Friday', hi: 'शुक्रवार' },
-      start: '09:00',
-      end: '11:00',
-      venueId: 'kishoreKuti',
-      note: {
-        en: 'Traditional date: Agahan Krishna Ekadashi',
-        hi: 'परंपरागत तिथि: अगहन कृष्ण एकादशी'
-      }
-    },
-    {
-      id: 'shreefal-sat-haldi',
-      title: {
-        en: 'Shreefal Sat & Haldi (Haridralepan)',
-        hi: 'श्रीफल सत एवं हरिद्रालेपन'
-      },
-      date: '2026-12-04',
-      day: { en: 'Friday', hi: 'शुक्रवार' },
-      start: '12:00',
-      end: '14:00',
-      venueId: 'kishoreKuti',
-      guestNote: {
-        en: 'Lunch is associated with this event.',
-        hi: 'इस कार्यक्रम के साथ भोजन भी जुड़ा है।'
-      }
-    },
-    {
-      id: 'mehendi',
-      title: {
-        en: 'Bride\'s Mehendi',
-        hi: 'वधू की मेहंदी'
-      },
-      date: '2026-12-04',
-      day: { en: 'Friday', hi: 'शुक्रवार' },
-      start: '17:00',
-      end: '20:00',
-      venueId: 'hotelGulzar',
-      note: {
-        en: 'Traditional date: Agahan Krishna Ekadashi',
-        hi: 'परंपरागत तिथि: अगहन कृष्ण एकादशी'
-      }
-    },
     {
       id: 'kul-devta',
       title: {
